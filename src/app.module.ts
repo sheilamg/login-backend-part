@@ -14,8 +14,4 @@ import { ValidationJWT } from './common/middleware/ValidationJWT.middleware';
   controllers: [AppController],
   providers: [AppService],
 })
-export class AppModule implements NestModule{
-  configure(consumer: MiddlewareConsumer) {
-      consumer.apply(ValidationJWT).exclude('/src/user').forRoutes('*')
-  }
-}
+export class AppModule {}

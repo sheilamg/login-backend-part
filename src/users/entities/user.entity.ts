@@ -1,4 +1,4 @@
-import { Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
+import { Column, CreateDateColumn, DeleteDateColumn, Entity, PrimaryGeneratedColumn } from 'typeorm';
 
 @Entity('user')
 export class User {
@@ -17,6 +17,9 @@ export class User {
   @Column('int', { nullable: true })
   age: Number;
 
-  @Column('date', { nullable: true })
+  @CreateDateColumn()
   created_at: Date;
+
+  @DeleteDateColumn()
+  deleted_at: Date
 }

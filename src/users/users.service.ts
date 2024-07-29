@@ -16,7 +16,7 @@ export class UsersService {
   ) {}
 
   findAll() {
-    return this.userRepository.find();
+    return this.userRepository.find({withDeleted: true});
   }
   async create(createUserDto: CreateUserDto) {
     const checkEmailExistence = await this.userRepository.findOne({ where: { email: createUserDto.email.toLowerCase() }})
@@ -42,7 +42,8 @@ export class UsersService {
     return this.userRepository.update({ id: id }, updateUserDto);
   }
 
-  remove(id: string) {
-    return this.userRepository.delete({ id: id });
+  async remove(idUser: string) {
+    const aEliminar = await this.userRepository.findOne({where: {id: idUser}})
+    return this.userRepository.softRemove(aEliminar)
   }
 }
