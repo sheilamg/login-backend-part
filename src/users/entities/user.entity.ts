@@ -8,14 +8,15 @@ export class User {
   @Column('text')
   name: string;
 
-  @Column('text')
+  //check this camp... is suspicious 
+  @Column('varchar', { length: 255 ,unique: true, nullable: false})
   email: string;
 
-  @Column('text', { select: false })
+  @Column('text', { nullable: false })
   password: string;
 
-  @Column('int', { nullable: true })
-  age: Number;
+  @Column({default: 'user'})
+  rol: string
 
   @CreateDateColumn()
   created_at: Date;

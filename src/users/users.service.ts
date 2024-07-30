@@ -11,35 +11,36 @@ export class UsersService {
   constructor(
     @InjectRepository(User)
     private readonly userRepository: Repository<User>,
-    @InjectRepository(User)
-    private readonly logger: Logger,
   ) {}
 
-  findAll() {
-    return this.userRepository.find({withDeleted: true});
+  async findAll() {
+    return await this.userRepository.find({withDeleted: true});
   }
   async create(createUserDto: CreateUserDto) {
     const checkEmailExistence = await this.userRepository.findOne({ where: { email: createUserDto.email.toLowerCase() }})
     if(checkEmailExistence){
       throw new HttpException('The user already exists', HttpStatus.CONFLICT)
     }
-    try {
-      return await this.userRepository.save({ ...createUserDto, password: hashPassword(createUserDto.password) });
-    } catch (error) {
-        this.logger.error(error.message, error.stack)
-        throw new HttpException('Error creating user', HttpStatus.INTERNAL_SERVER_ERROR)
-    }
-    
+ 
+      const securePass = await hashPassword(createUserDto.password);
+
+      const createUser: CreateUserDto = this.userRepository.create({...createUserDto, password: securePass })
+      return await this.userRepository.save(createUser);
+
   }
 
-  findOne(id: string) {
-    return this.userRepository.findOne({
+  async findOne(id: string) {
+    return await this.userRepository.findOne({
       where: { id: id },
     });
   }
 
-  update(id: string, updateUserDto: UpdateUserDto) {
-    return this.userRepository.update({ id: id }, updateUserDto);
+  async findOneByEmail(email: string){
+    return await this.userRepository.findOneBy({email})
+  }
+
+  async update(id: string, updateUserDto: UpdateUserDto) {
+    return await this.userRepository.update({ id: id }, updateUserDto);
   }
 
   async remove(idUser: string) {

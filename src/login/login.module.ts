@@ -1,14 +1,15 @@
 import { Module } from '@nestjs/common';
 import { LoginService } from './login.service';
 import { LoginController } from './login.controller';
-import { TypeOrmModule } from '@nestjs/typeorm';
 import { JwtModule } from '@nestjs/jwt';
-import { User } from 'src/users/entities/user.entity';
+import { UsersModule } from 'src/users/users.module';
 
 @Module({
-  imports: [TypeOrmModule.forFeature([User]),
+  imports: [UsersModule,
 JwtModule.register({
+  global: true,
   secret: 'somethinsomething',
+  signOptions: { expiresIn: '1d'},
 })],
   controllers: [LoginController],
   providers: [LoginService],

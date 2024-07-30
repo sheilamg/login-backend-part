@@ -10,7 +10,7 @@ export class ValidationJWT implements NestMiddleware{
     async use(req, res: Response, next: NextFunction){
         try {
             const token: string = req.headers.authorization?.split(' ')[1]
-            await this.loginService.verifyToken(token) 
+            //await this.loginService.verifyToken(token) 
 
             next()
         } catch (error) {
