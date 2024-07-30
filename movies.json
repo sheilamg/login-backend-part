@@ -1,0 +1,277 @@
+{
+  "movies": [
+    {
+      "title": "The Shawshank Redemption",
+      "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+      "genre": ["Drama"],
+      "year": 1994,
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/81/ShawshankRedemptionMoviePoster.jpg"
+    },
+    {
+      "title": "The Godfather",
+      "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+      "genre": ["Crime", "Drama"],
+      "year": 1972,
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/1c/Godfather_ver1.jpg"
+    },
+    {
+      "title": "The Dark Knight",
+      "description": "When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham.",
+      "genre": ["Action", "Crime", "Drama"],
+      "year": 2008,
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/8a/Dark_Knight.jpg"
+    },
+    {
+      "title": "Pulp Fiction",
+      "description": "The lives of two mob hitmen, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+      "genre": ["Crime", "Drama"],
+      "year": 1994,
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/82/Pulp_Fiction_cover.jpg"
+    },
+    {
+      "title": "Forrest Gump",
+      "description": "The presidencies of Kennedy and Johnson, the Vietnam War, the Watergate scandal and other historical events unfold from the perspective of an Alabama man with an IQ of 75.",
+      "genre": ["Drama", "Romance"],
+      "year": 1994,
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/67/Forrest_Gump_poster.jpg"
+    },
+    {
+      "title": "Inception",
+      "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
+      "genre": ["Action", "Adventure", "Sci-Fi"],
+      "year": 2010,
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/7f/Inception_ver3.jpg"
+    },
+    {
+      "title": "Fight Club",
+      "description": "An insomniac office worker and a devil-may-care soap maker form an underground fight club that evolves into something much, much more.",
+      "genre": ["Drama"],
+      "year": 1999,
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/fc/Fight_Club_poster.jpg"
+    },
+    {
+      "title": "The Matrix",
+      "description": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
+      "genre": ["Action", "Sci-Fi"],
+      "year": 1999,
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/c1/The_Matrix_Poster.jpg"
+    },
+    {
+      "title": "The Lord of the Rings: The Fellowship of the Ring",
+      "description": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
+      "genre": ["Action", "Adventure", "Drama"],
+      "year": 2001,
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/0c/The_Fellowship_Of_The_Ring.jpg"
+    },
+    {
+      "title": "Star Wars: Episode V - The Empire Strikes Back",
+      "description": "After the Rebels are brutally overpowered by the Empire on the ice planet Hoth, Luke Skywalker begins Jedi training with Yoda, while his friends are pursued by Darth Vader.",
+      "genre": ["Action", "Adventure", "Fantasy"],
+      "year": 1980,
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/3c/SW_-_Empire_Strikes_Back.jpg"
+    },
+    {
+      "title": "The Silence of the Lambs",
+      "description": "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to catch another serial killer, a madman who skins his victims.",
+      "genre": ["Crime", "Drama", "Thriller"],
+      "year": 1991,
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/86/The_Silence_of_the_Lambs_poster.jpg"
+    },
+    {
+      "title": "Saving Private Ryan",
+      "description": "Following the Normandy Landings, a group of U.S. soldiers go behind enemy lines to retrieve a paratrooper whose brothers have been killed in action.",
+      "genre": ["Drama", "War"],
+      "year": 1998,
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/ac/Saving_Private_Ryan_poster.jpg"
+    },
+    {
+      "title": "Interstellar",
+      "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+      "genre": ["Adventure", "Drama", "Sci-Fi"],
+      "year": 2014,
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/bc/Interstellar_film_poster.jpg"
+    },
+    {
+      "title": "Gladiator",
+      "description": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.",
+      "genre": ["Action", "Adventure", "Drama"],
+      "year": 2000,
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/8d/Gladiator_ver1.jpg"
+    },
+    {
+      "title": "Braveheart",
+      "description": "Scottish warrior William Wallace leads his countrymen in a rebellion to free his homeland from the tyranny of King Edward I of England.",
+      "genre": ["Biography", "Drama", "History"],
+      "year": 1995,
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/55/Braveheart_imp.jpg"
+    },
+    {
+      "title": "Schindler's List",
+      "description": "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.",
+      "genre": ["Biography", "Drama", "History"],
+      "year": 1993,
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/38/Schindler%27s_List_movie.jpg"
+    },
+    {
+      "title": "The Green Mile",
+      "description": "The lives of guards on Death Row are affected by one of their charges: a black man accused of child murder and rape, yet who has a mysterious gift.",
+      "genre": ["Crime", "Drama", "Fantasy"],
+      "year": 1999,
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/ce/Green_mile.jpg"
+    },
+    {
+      "title": "Goodfellas",
+      "description": "The story of Henry Hill and his life in the mob, covering his relationship with his wife Karen Hill and his mob partners Jimmy Conway and Tommy DeVito in the Italian-American crime syndicate.",
+      "genre": ["Biography", "Crime", "Drama"],
+      "year": 1990,
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/7b/Goodfellas.jpg"
+    },
+    {
+      "title": "The Lion King",
+      "description": "Lion prince Simba and his father are targeted by his bitter uncle, who wants to ascend the throne himself.",
+      "genre": ["Animation", "Adventure", "Drama"],
+      "year": 1994,
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/3d/The_Lion_King_poster.jpg"
+    },
+    {
+      "title": "Back to the Future",
+      "description": "Marty McFly, a 17-year-old high school student, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, the eccentric scientist Doc Brown.",
+      "genre": ["Adventure", "Comedy", "Sci-Fi"],
+      "year": 1985,
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/d2/Back_to_the_Future.jpg"
+    },
+    {
+      "title": "Jurassic Park",
+      "description": "During a preview tour, a theme park suffers a major power breakdown that allows its cloned dinosaur exhibits to run amok.",
+      "genre": ["Action", "Adventure", "Sci-Fi"],
+      "year": 1993,
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/e7/Jurassic_Park_poster.jpg"
+    },
+    {
+      "title": "The Terminator",
+      "description": "A human soldier is sent from 2029 to 1984 to stop an almost indestructible cyborg killing machine, sent from the same year, which has been programmed to execute a young woman whose unborn son is the key to humanity's future salvation.",
+      "genre": ["Action", "Sci-Fi"],
+      "year": 1984,
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/70/Terminator1984movieposter.jpg"
+    },
+    {
+      "title": "Aliens",
+      "description": "Ellen Ripley is rescued by a deep salvage team after being in hypersleep for 57 years. The moon that the Nostromo visited has been colonized, but contact is lost. This time, colonial marines have impressive firepower, but will that be enough?",
+      "genre": ["Action", "Adventure", "Sci-Fi"],
+      "year": 1986,
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/fb/Aliens_poster.jpg"
+    },
+    {
+      "title": "The Prestige",
+      "description": "After a tragic accident, two stage magicians engage in a battle to create the ultimate illusion while sacrificing everything they have to outwit each other.",
+      "genre": ["Drama", "Mystery", "Sci-Fi"],
+      "year": 2006,
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/d2/Prestige_poster.jpg"
+    },
+    {
+      "title": "The Departed",
+      "description": "An undercover cop and a mole in the police attempt to identify each other while infiltrating an Irish gang in South Boston.",
+      "genre": ["Crime", "Drama", "Thriller"],
+      "year": 2006,
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/50/Departed234.jpg"
+    },
+    {
+      "title": "The Sixth Sense",
+      "description": "A boy who communicates with spirits that don't know they're dead seeks the help of a disheartened child psychologist.",
+      "genre": ["Drama", "Mystery", "Thriller"],
+      "year": 1999,
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/66/The_Sixth_Sense_poster.png"
+    },
+    {
+      "title": "Se7en",
+      "description": "Two detectives, a rookie and a veteran, hunt a serial killer who uses the seven deadly sins as his motives.",
+      "genre": ["Crime", "Drama", "Mystery"],
+      "year": 1995,
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/68/Seven_%28movie%29_poster.jpg"
+    },
+    {
+      "title": "Avatar",
+      "description": "A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.",
+      "genre": ["Action", "Adventure", "Fantasy"],
+      "year": 2009,
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/b0/Avatar-Teaser-Poster.jpg"
+    },
+    {
+      "title": "Titanic",
+      "description": "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.",
+      "genre": ["Drama", "Romance"],
+      "year": 1997,
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/22/Titanic_poster.jpg"
+    },
+    {
+      "title": "Terminator 2: Judgment Day",
+      "description": "A cyborg, identical to the one who failed to kill Sarah Connor, must now protect her teenage son, John Connor, from a more advanced and powerful cyborg.",
+      "genre": ["Action", "Sci-Fi"],
+      "year": 1991,
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/85/Terminator2poster.jpg"
+    },
+    {
+      "title": "The Social Network",
+      "description": "As Harvard student Mark Zuckerberg creates the social networking site that would become known as Facebook, he is sued by the twins who claimed he stole their idea, and by the co-founder who was later squeezed out of the business.",
+      "genre": ["Biography", "Drama"],
+      "year": 2010,
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/7a/Social_network_film_poster.jpg"
+    },
+    {
+      "title": "Django Unchained",
+      "description": "With the help of a German bounty hunter, a freed slave sets out to rescue his wife from a brutal Mississippi plantation owner.",
+      "genre": ["Drama", "Western"],
+      "year": 2012,
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/8b/Django_Unchained_Poster.jpg"
+    },
+    {
+      "title": "The Wolf of Wall Street",
+      "description": "Based on the true story of Jordan Belfort, from his rise to a wealthy stock-broker living the high life to his fall involving crime, corruption, and the federal government.",
+      "genre": ["Biography", "Comedy", "Crime"],
+      "year": 2013,
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/d8/The_Wolf_of_Wall_Street_%282013%29.png"
+    },
+    {
+      "title": "Whiplash",
+      "description": "A promising young drummer enrolls at a cut-throat music conservatory where his dreams of greatness are mentored by an instructor who will stop at nothing to realize a student's potential.",
+      "genre": ["Drama", "Music"],
+      "year": 2014,
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/01/Whiplash_poster.jpg"
+    },
+    {
+      "title": "Mad Max: Fury Road",
+      "description": "In a post-apocalyptic wasteland, a woman rebels against a tyrannical ruler in search for her homeland with the aid of a group of female prisoners, a psychotic worshiper, and a drifter named Max.",
+      "genre": ["Action", "Adventure", "Sci-Fi"],
+      "year": 2015,
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/6e/Mad_Max_Fury_Road.jpg"
+    },
+    {
+      "title": "The Grand Budapest Hotel",
+      "description": "A writer encounters the owner of an aging high-class hotel, who tells him of his early years serving as a lobby boy in the hotel's glorious years under an exceptional concierge.",
+      "genre": ["Adventure", "Comedy", "Crime"],
+      "year": 2014,
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a6/The_Grand_Budapest_Hotel_Poster.jpg"
+    },
+    {
+      "title": "Blade Runner 2049",
+      "description": "Young Blade Runner K's discovery of a long-buried secret leads him to track down former Blade Runner Rick Deckard, who's been missing for thirty years.",
+      "genre": ["Action", "Drama", "Mystery"],
+      "year": 2017,
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/81/Blade_Runner_2049_logo.png"
+    },
+    {
+      "title": "Coco",
+      "description": "Aspiring musician Miguel, confronted with his family's ancestral ban on music, enters the Land of the Dead to find his great-great-grandfather, a legendary singer.",
+      "genre": ["Animation", "Adventure", "Drama"],
+      "year": 2017,
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/98/Coco_%282017_film%29_poster.jpg"
+    },
+    {
+      "title": "The Shape of Water",
+      "description": "At a top secret research facility in the 1960s, a lonely janitor forms a unique relationship with an amphibious creature that is being held in captivity.",
+      "genre": ["Adventure", "Drama", "Fantasy"],
+      "year": 2017,
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/37/The_Shape_of_Water_%28film%29.png"
+    }
+  ]
+}
